@@ -34,13 +34,11 @@ h2 {
 
 .image-container {
     max-width: 40vw;
-    position: relative;
-}
-
-.image-container img {
-    width: 40vw;
     height: 100vh;
-
+    background-image: url(./img/simon-lee-zft-W1kVEhg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .logo-container {
@@ -74,4 +72,12 @@ h2 {
 
 .credits-container a {
     font-weight: bold;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5vw;
 }
