@@ -19,23 +19,28 @@ body {
 
 h1 {
     font-family: Poppins-bold, sans-serif;
-    font-size: 10rem;
+    font-size: rem;
     font-weight: bold;
 }
 
 h2 {
     font-family: Poppins-medium, sans-serif;
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 .image-container, .sign-up-container {
     flex: 1;
 }
 
-.image-container img {
+.image-container {
     max-width: 40vw;
-    max-height: 100vh;
     position: relative;
+}
+
+.image-container img {
+    width: 40vw;
+    height: 100vh;
+
 }
 
 .logo-container {
@@ -43,20 +48,22 @@ h2 {
     top: 20vh;
     display: flex;
     justify-content: center;
-    width: 40vw;
+    width: 100%;
+    max-width: 100%;
     background-color: #00000085;
     padding: 2vh 0;
 }
 
-.logo-container img {
-    max-width: 5vw;
+#logo {
+    width: 4vw;
+    height: 5vw;
     
 }
  
 .credits-container {
     position: absolute;
     bottom: 1vh;
-    width: 40vw;
+    width: 100%;
 }
 
 .credits-container p, .credits-container a {
