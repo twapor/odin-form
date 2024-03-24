@@ -1,5 +1,31 @@
+@font-face {
+    font-family: Poppins-bold;
+    src: url(./fonts/Poppins-Bold.ttf);
+ }
+
+@font-face {
+    font-family: Poppins-medium;
+    src: url(./fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-regular;
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+
 body {
     display: flex;
+}
+
+h1 {
+    font-family: Poppins-bold, sans-serif;
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Poppins-medium, sans-serif;
+    font-size: 5rem;
 }
 
 .image-container, .sign-up-container {
@@ -8,6 +34,7 @@ body {
 
 .image-container img {
     max-width: 40vw;
+    max-height: 100vh;
     position: relative;
 }
 
@@ -24,4 +51,20 @@ body {
 .logo-container img {
     max-width: 5vw;
     
+}
+ 
+.credits-container {
+    position: absolute;
+    bottom: 1vh;
+    width: 40vw;
+}
+
+.credits-container p, .credits-container a {
+    font-family: Poppins-regular;
+    color: #fff;
+    text-align: center;
+}
+
+.credits-container a {
+    font-weight: bold;
 }
