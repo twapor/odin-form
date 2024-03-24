@@ -1,0 +1,27 @@
+body {
+    display: flex;
+}
+
+.image-container, .sign-up-container {
+    flex: 1;
+}
+
+.image-container img {
+    max-width: 40vw;
+    position: relative;
+}
+
+.logo-container {
+    position: absolute;
+    top: 20vh;
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    background-color: #00000085;
+    padding: 2vh 0;
+}
+
+.logo-container img {
+    max-width: 5vw;
+    
+}
