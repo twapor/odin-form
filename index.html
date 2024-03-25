@@ -20,10 +20,50 @@
         <div class="heading">
             <h1>Sign Up</h1>
             <h2>This is not a real online service! You know something like this in your life to help you realize your deepest dreams. Sign up now to get started.</h2>
+            <h2>You know you want to.</h2>
         </div>
         <div class="form-container">
             <form action="" method="">
-                <title>Let's do this</title>
+                <div class="form-bg-color">
+                    <h2>Let's do this!</h2>
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                        <div class="form-field"> 
+                            <label for="fname">First Name</label>
+                            <input type="text" name="fname" id="fname" required>
+                        </div>
+                        <div class="form-field"> 
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="lname" id="lname" required>
+                        </div>
+                    </fieldset> 
+                    <fieldset>
+                        <legend>Contact Info</legend>
+                        <div class="form-field"> 
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="form-field"> 
+                            <label for="phone">Phone Number</label>
+                            <input type="number" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Password</legend>
+                        <div class="form-field"> 
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" minlength="10" required>
+                        </div>
+                        <div class="form-field"> 
+                            <label for="confirm-password">Confirm password</label>
+                            <input type="password" name="confirm-password" id="confirm-password" minlength="10" required>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="submit-btn-container">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="">Log in</a></p>
+                </div>
             </form>
         </div>
     </div>
