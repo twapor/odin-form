@@ -156,3 +156,26 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 2vh 5vw;
 }
 
+.submit-btn-container button {
+    background-color: #0844B7;
+    color: #fff;
+    font-family: Poppins-medium,sans-serif;
+    font-weight: bold;
+    font-size: 1.05rem;
+    padding: 1vh 3vw;
+    border: none;
+    border-radius: 0.5vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.submit-btn-container a {
+    color:#0844B7;
+    font-family: Poppins-medium, sans-serif;
+    font-weight: bold;
+}
+
+.submit-btn-container p {
+    font-family: Poppins-medium, sans-serif;
+    
+}
+
